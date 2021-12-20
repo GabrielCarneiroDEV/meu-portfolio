@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  letter-spacing: 1.2px;
 }
 
 body {
@@ -19,12 +20,11 @@ code {
 }
 
 .Routes {
-  background-color: #282c34;
+  background-color: #0f131b;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  color: white;
+  color:white;
 }
