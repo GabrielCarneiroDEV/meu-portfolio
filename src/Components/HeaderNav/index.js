@@ -5,13 +5,15 @@ function HeaderNav() {
   return (
     <nav>
       <div className='container-nav'>
-        <span>Página Inicial</span>
+        <Link to={'/'} className='unset'>
+          <span>Página Inicial</span>
+        </Link>
 
-        <Link to={'Projects'} className='unset'>
+        <Link to={'/Projects'} className='unset'>
           <span>Projetos</span>
         </Link>
-        <Link to={'Contact'} className='unset'>
-        <span>Contato</span>
+        <Link to={'/Contact'} className='unset'>
+          <span>Contato</span>
         </Link>
       </div>
       <div className='title'>

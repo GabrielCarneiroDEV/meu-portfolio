@@ -1,9 +1,10 @@
 import './styles.css';
+import HeaderNav from '../../Components/HeaderNav';
 
 function Contact() {
   return (
-    <div>
-      <h1>Contatos</h1>
+    <div className='Contact'>
+      <HeaderNav />
     </div>
   );
 }
