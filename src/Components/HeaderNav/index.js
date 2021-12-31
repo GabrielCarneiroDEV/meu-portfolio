@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function HeaderNav() {
@@ -5,8 +6,13 @@ function HeaderNav() {
     <nav>
       <div className='container-nav'>
         <span>Página Inicial</span>
-        <span>Projetos</span>
+
+        <Link to={'Projects'} className='unset'>
+          <span>Projetos</span>
+        </Link>
+        <Link to={'Contact'} className='unset'>
         <span>Contato</span>
+        </Link>
       </div>
       <div className='title'>
         <h1>Gabriel Carneiro - Desenvolvedor Full Stack</h1>

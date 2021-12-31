@@ -3,13 +3,12 @@ import avatar from '../../Assets/profile.png';
 import githubLogo from '../../Assets/github.png';
 import linkedinLogo from '../../Assets/linkedin.png';
 import HeaderNav from '../../Components/HeaderNav';
-  
+
 
 function Home() {
   return (
     <div className='Home'>
       <HeaderNav />
-
       <main className='main'>
         <img src={avatar} alt='' className='avatar' />
         <div className='texts'>
@@ -40,7 +39,6 @@ function Home() {
           voluptas autem fugiat voluptate.
         </p>
       </section>
-
       <section className='cards'>
         <div className='card'>
           <h2>Front-end</h2>
