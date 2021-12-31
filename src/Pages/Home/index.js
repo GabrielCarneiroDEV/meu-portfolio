@@ -4,7 +4,6 @@ import githubLogo from '../../Assets/github.png';
 import linkedinLogo from '../../Assets/linkedin.png';
 import HeaderNav from '../../Components/HeaderNav';
 
-
 function Home() {
   return (
     <div className='Home'>
@@ -16,14 +15,18 @@ function Home() {
           <h3>Desenvolvedor Full Stack</h3>
           <span>JavaScript | Node | React </span>
           <div className='icons'>
-            <div className='icon'>
-              <img src={linkedinLogo} alt='' />
-              <span>Linkedin</span>
-            </div>
-            <div className='icon'>
-              <img src={githubLogo} alt='' />
-              <span>Github</span>
-            </div>
+            <a href='https://linkedin.com/in/gabriel-carneiro-7894b2201/' target='_blank' rel='noreferrer' className='unset'>
+              <div className='icon'>
+                <img src={linkedinLogo} alt='' />
+                <span>Linkedin</span>
+              </div>
+            </a>
+            <a href='https://github.com/GabrielCarneiroDEV' className='unset' target='_blank' rel='noreferrer'>
+              <div className='icon'>
+                <img src={githubLogo} alt='' />
+                <span>Github</span>
+              </div>
+            </a>
           </div>
         </div>
       </main>

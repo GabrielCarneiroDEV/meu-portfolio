@@ -32,10 +32,6 @@ nav {
 
 }
 
-.unset{
-  all: unset;
-}
-
 @media (max-width:1080px) {
   nav{
     position: relative;

@@ -38,6 +38,11 @@ code {
   color:white;
 }
 
+.unset{
+  all: unset;
+}
+
+
 
 @media (max-width:1000px) {
   
