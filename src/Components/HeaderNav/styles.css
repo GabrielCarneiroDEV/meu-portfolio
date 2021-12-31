@@ -30,18 +30,11 @@ nav {
   justify-content: center;
   font-size: 1.8rem;
 }
-.menu-icon {
+.menu-icon, .close-icon, .container-menu-nav {
   display: none;
 }
 
-.container-menu{
-  height: 30vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
+
 @media (max-width: 1080px) {
   nav {
     position: relative;
@@ -51,12 +44,22 @@ nav {
   }
 }
 @media (max-width: 420px) {
+  .container-menu{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
   .menu-icon {
     display: block;
   
   }
   .close-icon{
     position: absolute;
+    display: block;
   }
   .container-nav {
     display: none;
@@ -72,4 +75,5 @@ nav {
 
     gap: 30px;
   }
+  
 }
