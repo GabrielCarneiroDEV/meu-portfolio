@@ -29,15 +29,47 @@ nav {
   align-items: flex-end;
   justify-content: center;
   font-size: 1.8rem;
-
+}
+.menu-icon {
+  display: none;
 }
 
-@media (max-width:1080px) {
-  nav{
+.container-menu{
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 1080px) {
+  nav {
     position: relative;
   }
-  .title{
-    display:none;
+  .title {
+    display: none;
   }
+}
+@media (max-width: 400px) {
+  .menu-icon {
+    display: block;
   
+  }
+  .close-icon{
+    position: absolute;
+  }
+  .container-nav {
+    display: none;
+  }
+  nav {
+    justify-content: flex-end;
+  }
+  .container-menu-nav{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+
+    gap: 30px;
+  }
 }
